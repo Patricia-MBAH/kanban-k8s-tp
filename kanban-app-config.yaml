@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kanban-app-config
+data:
+  POSTGRES_DB: kanban
+  POSTGRES_USER: kanban
+  POSTGRES_PASSWORD: kanban
+  DB_SERVER: postgres
